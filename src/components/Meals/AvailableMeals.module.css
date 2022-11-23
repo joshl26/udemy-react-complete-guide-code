@@ -5,6 +5,11 @@
   animation: meals-appear 1s ease-out forwards;
 }
 
+.MealsError {
+  text-align: center;
+  color: red;
+}
+
 .MealsLoading {
   text-align: center;
   color: white;
