@@ -8,7 +8,7 @@ let age: number;
 
 age = 12;
 
-let userName: string;
+let userName: string | string[];
 
 userName = "Max";
 
@@ -22,20 +22,24 @@ let hobbies: string[];
 
 hobbies = ["Sports", "Cooking"];
 
-let person: {
+type Person = {
   name: string;
   age: number;
   isEmployee: boolean;
 };
 
-person = {
-  name: "Max",
-  age: 32,
-  isEmployee: true,
-};
+let person: Person[];
 
-let people: {
-  name: string;
-  age: number;
-  isEmployee: true;
-}[];
+let people: Person[];
+
+//Type inference
+
+let course: string | number = "React - The Complete Guide";
+
+course = 12341;
+
+//Functions and types
+
+function add(a: number, b: number) {
+  return a + b;
+}
