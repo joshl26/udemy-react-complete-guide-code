@@ -1,6 +1,23 @@
 {
-  "name": "react-ts",
+  "name": "udemy-react-complete-guide-code",
   "version": "0.1.0",
+  "description": "Udemy React Complete Guide Code Examples",
+  "author": "Joshua Lehman",
+  "license": "MIT",
+  "packageManager": "^pnpm@6.32.4",
+  "homepage": "https://github.com/joshl26/udemy-react-complete-guide-code#readme",
+  "demo": "https://github.com/joshl26/udemy-react-complete-guide-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshl26/udemy-react-complete-guide-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshl26/udemy-react-complete-guide-code/issues"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=17.0.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
